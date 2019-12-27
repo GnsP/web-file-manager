@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/web-file-manager/static/css/main.dba6ae67.chunk.css",
+    "main.js": "/web-file-manager/static/js/main.7c412476.chunk.js",
+    "main.js.map": "/web-file-manager/static/js/main.7c412476.chunk.js.map",
+    "runtime-main.js": "/web-file-manager/static/js/runtime-main.316ee2e7.js",
+    "runtime-main.js.map": "/web-file-manager/static/js/runtime-main.316ee2e7.js.map",
+    "static/js/2.df24221c.chunk.js": "/web-file-manager/static/js/2.df24221c.chunk.js",
+    "static/js/2.df24221c.chunk.js.map": "/web-file-manager/static/js/2.df24221c.chunk.js.map",
+    "index.html": "/web-file-manager/index.html",
+    "precache-manifest.517f80ef5660a82a42effd0ed0589d7b.js": "/web-file-manager/precache-manifest.517f80ef5660a82a42effd0ed0589d7b.js",
+    "service-worker.js": "/web-file-manager/service-worker.js",
+    "static/css/main.dba6ae67.chunk.css.map": "/web-file-manager/static/css/main.dba6ae67.chunk.css.map",
+    "static/js/2.df24221c.chunk.js.LICENSE": "/web-file-manager/static/js/2.df24221c.chunk.js.LICENSE",
+    "static/media/close.svg": "/web-file-manager/static/media/close.f6486474.svg",
+    "static/media/dropdown.svg": "/web-file-manager/static/media/dropdown.a0483346.svg",
+    "static/media/search.svg": "/web-file-manager/static/media/search.f47dc9ac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.316ee2e7.js",
+    "static/js/2.df24221c.chunk.js",
+    "static/css/main.dba6ae67.chunk.css",
+    "static/js/main.7c412476.chunk.js"
+  ]
+}
