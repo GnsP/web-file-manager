@@ -34,7 +34,6 @@ export default class FState {
   static mkdir (state, name, creator, date=new Date(Date.now())) {
     let tree = fs.fromState(state);
     tree.mkdir(name, creator, date);
-    console.log(tree);
     return tree.serialize();
   }
 
