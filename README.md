@@ -24,7 +24,5 @@ like a normal desktop file system (Explorer in Windows and Finder in OSX).
 
 ## Todo
 
-- Refactor SASS
 - Optimize store/model (using immutable.js)
 - Write tests
-- Write flowtypes
