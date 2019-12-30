@@ -1,10 +1,29 @@
+// @flow
+
+/**
+ * COMPONENT: NodeInfo
+ * PURPOSE: Display file/folder info
+ * STYLE: styles/components/_modal.scss
+ */
+
 import React from 'react';
 import ImageButton from './image-button';
 import FSIcon from './fs-icon';
 
 import closeImage from 'static/close.svg';
 
-export default function CreateNewDialogue ({ item, onClose }) {
+type NodeInfoProps = {
+  item: {
+    type: string,
+    key: string,
+    size: number,
+    creator: string,
+    created: Date,
+  },
+  onClose: Function,
+};
+
+export default function NodeInfo ({ item, onClose }: NodeInfoProps) {
   return (
     <div className='dialogue'>
       <header>
@@ -39,5 +58,3 @@ export default function CreateNewDialogue ({ item, onClose }) {
     </div>
   );
 }
-
-

@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * COMPONENT: DateInput
  * PURPOSE: Just a controlled component wrapper around <input type='date'>
@@ -6,7 +8,13 @@
 
 import React from 'react';
 
-export default function DateInput ({ onChange, value, placeholder }) {
+type DateInputProps = {
+  onChange: Function,
+  value: number,
+  placeholder: string,
+};
+
+export default function DateInput ({ onChange, value, placeholder }: DateInputProps) {
   function onChangeHandler (e) {
     onChange(e.target.value);
   }

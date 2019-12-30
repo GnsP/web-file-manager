@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * COMPONENT: ImageButton
  * PURPOSE: Makes images clickable
@@ -6,7 +8,13 @@
 
 import React from 'react';
 
-export default function ImageButton ({ image, onClick, className }) {
+type ImageButtonProps = {
+  image: string,
+  onClick: Function,
+  className?: string,
+};
+
+export default function ImageButton ({ image, onClick, className }: ImageButtonProps) {
   return (
     <button onClick={onClick} className={`image-button ${className || ''}`}>
       <img src={image} alt='' role='presentation' />

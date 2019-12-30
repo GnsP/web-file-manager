@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: Toast
+ * PURPOSE: Display toasts via a portal
+ * STYLE: styles/components/_toast.scss
+ */
+
 import React from 'react';
 import { createPortal } from 'react-dom';
 

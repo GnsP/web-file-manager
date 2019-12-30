@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * COMPONENT: Switch
  * PURPOSE: Radio button group with preferably 2 options (a binary switch)
@@ -6,7 +8,19 @@
 
 import React from 'react';
 
-export default function Switch ({ onSelect, name, options, activeIndex }) {
+type OptionType = {
+  value: string,
+  label: string,
+};
+
+type SwitchProps = {
+  onSelect: Function,
+  name: string,
+  options: Array<OptionType>,
+  activeIndex: number
+};
+
+export default function Switch ({ onSelect, name, options, activeIndex }: SwitchProps) {
   function onClick (value) {
     return function handler (e) {
       return onSelect(value);

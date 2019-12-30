@@ -1,3 +1,8 @@
+/**
+ * COMPONENT: OutsideClickTracker
+ * PURPOSE: Attach onClickOutside on children
+ */
+
 import React from "react";
 
 function useOutsideClickTracking (ref, onClickOutside) {

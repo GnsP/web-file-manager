@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: Header
+ * PURPOSE: Display the Current Working Directory (CWD) and the search bar
+ * STYLE: styles/layouts/_shell.scss
+ */
+
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';

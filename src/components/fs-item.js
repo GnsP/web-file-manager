@@ -1,8 +1,26 @@
+// @flow
+
+/**
+ * COMPONENT: FSItem
+ * PURPOSE: Render a file/folder on explorer, with name and event handlers attached
+ * STYLE: styles/components/_file-icon.scss
+ */
+
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import FSIcon from './fs-icon';
 
-export default function FSItem ({ item, onRightClick }) {
+type FSItemProps = {
+  item: {
+    type: string,
+    path: string,
+    par: string,
+    key: string,
+  },
+  onRightClick: Function,
+};
+
+export default function FSItem ({ item, onRightClick }: FSItemProps) {
   const history = useHistory();
   const path = '/' + (item.type === 'file' ? item.par : item.path);
 

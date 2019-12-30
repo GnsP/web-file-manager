@@ -1,8 +1,21 @@
+// @flow
+
+/**
+ * COMPONENT: FSIcon
+ * PURPOSE: Render a file or folder icon with the file extension
+ * STYLE: styles/components/_file-icon.scss
+ */
+
 import React from 'react';
 import fileImage from 'static/file.png';
 import folderImage from 'static/folder.png';
 
-export default function FSIcon ({ type, name }) {
+type FSIconProps = {
+  type: string,
+  name: string,
+};
+
+export default function FSIcon ({ type, name }: FSIconProps) {
   let ext = null;
   if (type === 'file') {
     let parts = name.split('.');

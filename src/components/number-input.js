@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * COMPONENT: NumberInput
  * PURPOSE: Just a controlled component wrapper around <input type='number'>
@@ -6,7 +8,15 @@
 
 import React from 'react';
 
-export default function NumberInput ({ onChange, value, placeholder, min, max }) {
+type NumberInputProps = {
+  onChange: Function,
+  value: number,
+  placeholder?: string,
+  min?: number,
+  max?: number,
+};
+
+export default function NumberInput ({ onChange, value, placeholder, min, max }: NumberInputProps) {
   function onChangeHandler (e) {
     onChange(e.target.value);
   }

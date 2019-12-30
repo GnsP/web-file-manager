@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: CreateNewDialogue
+ * PURPOSE: Handles new file/folder creation with validation
+ * STYLE: styles/components/_modal.scss
+ */
+
 import React from 'react';
 import { connect } from 'react-redux';
 import ImageButton from 'components/image-button';

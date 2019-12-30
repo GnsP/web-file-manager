@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: TreeView
+ * PURPOSE: Display a nested tree structure as an nested collapsible list
+ * STYLE: styles/components/_tree-view.scss
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Spread from './spread';

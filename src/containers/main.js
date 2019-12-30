@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: Main
+ * PURPOSE: Entry point of the app. Redirects to '#/root' if non-existing path is given in addressbar
+ * STYLE: styles/layouts/_shell.scss
+ */
+
 import React from 'react';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';

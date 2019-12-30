@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: ContextMenu
+ * PURPOSE: Display context menu via a portal
+ * STYLE: styles/components/_context-menu.scss
+ */
+
 import React from 'react';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';

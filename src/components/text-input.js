@@ -1,3 +1,5 @@
+// @flow
+
 /**
  * COMPONENT: TextInput
  * PURPOSE: Just a controlled component wrapper around <input type='text'>
@@ -6,7 +8,13 @@
 
 import React from 'react';
 
-export default function TextInput ({ onChange, value, placeholder }) {
+type TextInputProps = {
+  onChange: Function,
+  value: string,
+  placeholder: string,
+};
+
+export default function TextInput ({ onChange, value, placeholder }: TextInputProps) {
   function onChangeHandler (e) {
     onChange(e.target.value);
   }

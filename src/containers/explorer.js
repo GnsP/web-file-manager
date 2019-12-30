@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: Explorer
+ * PURPOSE: The file explorer component (main area of the app)
+ * STYLE: styles/layouts/_explorer.scss
+ */
+
 import React from 'react';
 import { connect } from 'react-redux';
 import CreateNewDialogue from './create-new';

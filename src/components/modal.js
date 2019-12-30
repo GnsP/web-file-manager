@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: Modal
+ * PURPOSE: Creates a portal to render modals
+ * STYLE: styles/components/_modal.scss
+ */
+
 import React from 'react';
 import { createPortal } from 'react-dom';
 
