@@ -1,0 +1,17 @@
+.file-icon-wrapper {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  .file-ext {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-size: 14px;
+    color: white;
+  }
+}

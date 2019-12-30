@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: DateInput
+ * PURPOSE: Just a controlled component wrapper around <input type='date'>
+ * STYLE: styles/components/_inputs.scss
+ */
+
 import React from 'react';
 
 export default function DateInput ({ onChange, value, placeholder }) {

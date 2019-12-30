@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: ImageButton
+ * PURPOSE: Makes images clickable
+ * STYLE: styles/components/_image_button.scss
+ */
+
 import React from 'react';
 
 export default function ImageButton ({ image, onClick, className }) {

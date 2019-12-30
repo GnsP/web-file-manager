@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: TextInput
+ * PURPOSE: Just a controlled component wrapper around <input type='text'>
+ * STYLE: styles/components/_inputs.scss
+ */
+
 import React from 'react';
 
 export default function TextInput ({ onChange, value, placeholder }) {

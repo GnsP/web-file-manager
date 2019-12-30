@@ -1,3 +1,19 @@
-@import '_layouts';
-@import '_utils';
-@import '_components';
+@import 'base/variables';
+@import 'base/preamble';
+@import 'base/atomic';
+@import 'base/misc';
+
+@import 'components/elements';
+@import 'components/spread';
+@import 'components/image_button';
+@import 'components/switch';
+@import 'components/inputs';
+@import 'components/treeview';
+@import 'components/file-icon';
+@import 'components/modal';
+@import 'components/toast';
+@import 'components/context-menu';
+
+@import 'layouts/shell';
+@import 'layouts/explorer';
+@import 'layouts/sidebar';

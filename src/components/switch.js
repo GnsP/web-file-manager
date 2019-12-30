@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: Switch
+ * PURPOSE: Radio button group with preferably 2 options (a binary switch)
+ * STYLE: styles/components/_switch.scss
+ */
+
 import React from 'react';
 
 export default function Switch ({ onSelect, name, options, activeIndex }) {

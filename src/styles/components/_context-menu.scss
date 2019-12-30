@@ -1,0 +1,43 @@
+#contextmenu-root .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 98;
+}
+
+.context-menu {
+  position: absolute;
+}
+
+.context-menu-inner {
+  width: 160px;
+  min-height: 40px;
+  background: white;
+  border: 1px solid rgba(221,224,228,0.50);
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+  }
+
+  li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    width: 100%;
+    text-decoration: none;
+
+    &:hover {
+      background: #EEEFF1;
+      cursor: pointer;
+    }
+  }
+}

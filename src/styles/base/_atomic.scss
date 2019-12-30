@@ -1,0 +1,51 @@
+// MARGINS
+
+.mr-md {
+  margin-right: $ln_md;
+}
+
+.mt-sm {
+  margin-top: $ln_sm;
+}
+
+.mt-lg {
+  margin-top: $ln_lg;
+}
+
+.mt-md {
+  margin-top: $ln_md;
+}
+
+.mv-md {
+  margin-top: $ln_md;
+  margin-bottom: $ln_md;
+}
+
+.mh-md {
+  margin-left: $ln_md;
+  margin-right: $ln_md;
+}
+
+
+// WIDTHS
+
+.fw {
+  width: 100%;
+}
+
+.fc {
+  width: fit-content;
+}
+
+
+// CENTERING
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.hcenter {
+  margin-left: auto;
+  margin-right: auto;
+}

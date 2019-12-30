@@ -1,0 +1,29 @@
+.file-explorer-container {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .file-item {
+    display: flex;
+    flex-direction: column;
+    width: 96px;
+    height: 120px;
+    text-decoration: none;
+
+    .file-name-wrapper {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    margin-right: 48px;
+    margin-bottom: 48px;
+
+    &:hover {
+      background: #E6F5FF;
+    }
+  }
+}
+
+

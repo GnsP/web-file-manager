@@ -1,3 +1,9 @@
+/**
+ * COMPONENT: NumberInput
+ * PURPOSE: Just a controlled component wrapper around <input type='number'>
+ * STYLE: styles/components/_inputs.scss
+ */
+
 import React from 'react';
 
 export default function NumberInput ({ onChange, value, placeholder, min, max }) {
